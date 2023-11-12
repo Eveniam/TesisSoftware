@@ -27,6 +27,9 @@ public class User {
     @ColumnInfo(name = "telefono")
     public int telefono;
 
-    @ColumnInfo(name = "dni")
-    public int dni;
+    @ColumnInfo(name = "latitud")
+    public String Lati;
+
+    @ColumnInfo(name = "longitud")
+    public String Longi;
 }
